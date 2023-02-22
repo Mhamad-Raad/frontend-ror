@@ -7,7 +7,7 @@ export const fetchGreeting = createAsyncThunk(
       .then((resp) => resp.json())
       .then((result) => result);
     return response;
-  }
+  },
 );
 
 const initialState = {
