@@ -1,11 +1,9 @@
-import React from 'react';
-import Greeting from './components/Greets';
-
-
 
 
 function App() {
-  return <Greeting />;
+  return (
+    <div></div>
+  );
 }
 
 export default App;
