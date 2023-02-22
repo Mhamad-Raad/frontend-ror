@@ -1,7 +1,7 @@
+import Greeting from './components/Greets';
+
 function App() {
-  return (
-    <div />
-  );
+  return <Greeting />;
 }
 
 export default App;
