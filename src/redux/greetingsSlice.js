@@ -4,14 +4,10 @@ export const fetchGreeting = createAsyncThunk(
   'greetings/fetchGreeting',
   async () => {
     const response = await fetch('http://localhost:3000/api/greets')
-      .then((resp) => {
-        return resp.json();
-      })
-      .then((result) => {
-        return result;
-      });
+      .then((resp) => resp.json())
+      .then((result) => result);
     return response;
-  },
+  }
 );
 
 const initialState = {
